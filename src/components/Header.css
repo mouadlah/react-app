@@ -1,0 +1,68 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #004d4d;
+  color: white;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.75rem;  /* Augmenter la taille de la police */
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif; /* Appliquer une police moderne et attirante */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;  /* Augmenter l'espacement entre les éléments */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;  /* Augmenter la taille de la police */
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif; /* Appliquer une police moderne et attirante */
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.language-selector .bi-globe {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.lang-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif; /* Appliquer une police moderne et attirante */
+}
+
+.lang-btn:hover {
+  text-decoration: underline;
+}

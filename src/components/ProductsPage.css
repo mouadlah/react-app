@@ -1,0 +1,152 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+/* Ajouté pour les infobulles */
+.product-card {
+  position: relative;
+  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+}
+
+.product-card .tooltip {
+  visibility: hidden;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position the tooltip above the card */
+  left: 50%;
+  margin-left: -70px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.product-card .tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.product-card:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.faq-link button {
+  background-color: #004d4d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.faq-link button:hover {
+  background-color: #003333;
+}
+
+/* Styles existants */
+.products-page {
+  display: flex;
+  padding: 2rem;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.filter-sort {
+  width: 20%;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+.filter-sort h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #004d4d; /* Vert pour les titres */
+  font-family: 'Poppins', sans-serif; /* Appliquer une police moderne et attirante */
+}
+
+.filter-sort .filter-category,
+.filter-sort .filter-price {
+  margin-bottom: 1rem;
+}
+
+.filter-sort label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.filter-sort select,
+.filter-sort input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif; /* Police moderne et attirante pour le corps du texte */
+}
+
+.product-list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+.product-card {
+  width: calc(50% - 1rem); /* Adjust width for two cards per row */
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px; /* Increase height for larger images */
+  object-fit: contain; /* Ensures images are fully visible */
+}
+
+.product-card h3 {
+  margin-top: 1rem;
+  text-align: center;
+  color: #004d4d; /* Vert pour les titres */
+  font-family: 'Poppins', sans-serif; /* Appliquer une police moderne et attirante */
+}
+
+.product-card p {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif; /* Police moderne et attirante pour le corps du texte */
+}
+
+.product-card ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.product-card ul li {
+  margin-bottom: 0.5rem;
+  font-family: 'Lato', sans-serif; /* Police moderne et attirante pour le corps du texte */
+}
+
+.product-card .price {
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif; /* Police moderne et attirante pour le corps du texte */
+}

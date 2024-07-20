@@ -1,0 +1,65 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+.explore-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.explore-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #004d4d; /* Vert pour les titres */
+  font-family: 'Poppins', sans-serif; /* Appliquer une police moderne et attirante */
+}
+
+.main-video {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.main-video video {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-video p {
+  margin-top: 1rem;
+  font-family: 'Lato', sans-serif; /* Police moderne et attirante pour le corps du texte */
+}
+
+.video-cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-card {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 30%; /* Ensures all cards have the same width */
+  box-sizing: border-box;
+}
+
+.video-card video,
+.video-card img {
+  width: 100%;
+  height: auto;
+}
+
+.video-card h3 {
+  margin-top: 1rem;
+  color: #004d4d; /* Vert pour les sous-titres */
+  font-family: 'Poppins', sans-serif; /* Appliquer une police moderne et attirante */
+}
+
+.video-card p {
+  margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif; /* Police moderne et attirante pour le corps du texte */
+}
