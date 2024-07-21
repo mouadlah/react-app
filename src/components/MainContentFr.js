@@ -32,6 +32,7 @@ function MainContentFr() {
 
   return (
     <div>
+<HeaderFr />
       <main>
         <section className="hero">
           <h1>Découvrez les dernières solutions robotiques</h1>
@@ -94,7 +95,7 @@ function MainContentFr() {
           </div>
         </section>
       </main>
-      
+      <FooterFr />
     </div>
   );
 }

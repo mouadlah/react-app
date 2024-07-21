@@ -32,9 +32,11 @@ function App() {
   const location = useLocation();
   const isFrench = location.pathname.includes('-fr') || location.pathname === '/fr';
 
+  const isMainContentFr = location.pathname === '/react-app/fr';
+
   return (
     <div className="App">
-      {isFrench ? <HeaderFr /> : <Header />}
+      {!isMainContentFr && (isFrench ? <HeaderFr /> : <Header />)}
       <Routes>
         <Route path="/react-app" element={<MainContent />} />
         <Route path="/react-app/fr" element={<MainContentFr />} />
@@ -59,7 +61,7 @@ function App() {
         <Route path="/react-app/about" element={<AboutUs />} />
         <Route path="/react-app/about-fr" element={<AboutUsFr />} />
       </Routes>
-      {isFrench ? <FooterFr /> : <Footer />}
+      {!isMainContentFr && (isFrench ? <FooterFr /> : <Footer />)}
     </div>
   );
 }
