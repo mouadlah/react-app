@@ -7,7 +7,7 @@ function Header() {
   const navigate = useNavigate();
 
   const handleENClick = () => {
-    navigate("/react-app");
+    navigate("/");
   };
 
   const handleFRClick = () => {
@@ -17,7 +17,7 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/react-app">OTS</Link>
+        <Link to="/">OTS</Link>
       </div>
       <nav>
         <ul>

@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       {!isMainContentFr && (isFrench ? <HeaderFr /> : <Header />)}
       <Routes>
-        <Route path="/react-app" element={<MainContent />} />
+        <Route path="/" element={<MainContent />} />
         <Route path="/react-app/fr" element={<MainContentFr />} />
         <Route path="/react-app/explore" element={<ExplorePage />} />
         <Route path="/react-app/explore-fr" element={<ExploreFr />} />
