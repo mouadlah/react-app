@@ -27,9 +27,9 @@ function FooterFr() {
       </div>
       <div className="resources">
         <h3>Ressources</h3>
-        <Link to="/support-fr">Support</Link>
-        <Link to="/blog-fr">Blog</Link>
-        <Link to="/faq-fr">FAQs</Link>
+        <Link to="/react-app/support-fr">Support</Link>
+        <Link to="/react-app/blog-fr">Blog</Link>
+        <Link to="/react-app/faq-fr">FAQs</Link>
       </div>
     </footer>
   );

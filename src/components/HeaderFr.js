@@ -17,13 +17,13 @@ function HeaderFr() {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/fr">OTS</Link>
+        <Link to="/react-app/fr">OTS</Link>
       </div>
       <nav>
         <ul>
-          <li><Link to="/products-fr">Produits</Link></li>
-          <li><Link to="/about-fr">À propos</Link></li>
-          <li><Link to="/schedule-fr">Contact</Link></li>
+          <li><Link to="/react-app/products-fr">Produits</Link></li>
+          <li><Link to="/react-app/about-fr">À propos</Link></li>
+          <li><Link to="/react-app/schedule-fr">Contact</Link></li>
         </ul>
       </nav>
       <div className="language-selector">
