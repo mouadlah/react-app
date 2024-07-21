@@ -12,19 +12,19 @@ function MainContent() {
   const navigate = useNavigate();
 
   const handleExploreClick = () => {
-    navigate('/explore');
+    navigate('/react-app/explore');
   };
 
   const handleCollaborateClick = () => {
-    navigate('/dashboard');
+    navigate('/react-app/dashboard');
   };
 
   const handleJoinClick = () => {
-    navigate('/schedule');
+    navigate('/react-app/schedule');
   };
 
   const handleProductsPageClick = () => {
-    navigate('/products');
+    navigate('/react-app/products');
   };
 
   return (

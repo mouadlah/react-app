@@ -27,7 +27,7 @@ function SupportPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      navigate('/ticket-confirmation', {
+      navigate('/react-app/ticket-confirmation', {
         state: { name, email, phone, message }
       });
     }

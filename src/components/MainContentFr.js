@@ -15,19 +15,19 @@ function MainContentFr() {
   const navigate = useNavigate();
 
   const handleExploreClick = () => {
-    navigate('/explore-fr');
+    navigate('/react-app/explore-fr');
   };
 
   const handleCollaborateClick = () => {
-    navigate('/dashboard-fr');
+    navigate('/react-app/dashboard-fr');
   };
 
   const handleJoinClick = () => {
-    navigate('/schedule-fr');
+    navigate('/react-app/schedule-fr');
   };
 
   const handleProductsPageClick = () => {
-    navigate('/products-fr');
+    navigate('/react-app/products-fr');
   };
 
   return (

@@ -39,7 +39,7 @@ function SchedulePage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      navigate('/confirmation', {
+      navigate('/react-app/confirmation', {
         state: { name, phone, email, date, time }
       });
     }

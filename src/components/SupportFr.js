@@ -27,7 +27,7 @@ function SupportFr() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      navigate('/ticket-confirmation-fr', {
+      navigate('/react-app/ticket-confirmation-fr', {
         state: { name, email, phone, message }
       });
     }

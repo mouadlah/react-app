@@ -131,11 +131,11 @@ function ProductsPage() {
   const navigate = useNavigate();
 
   const handleCardClick = () => {
-    navigate('/schedule');
+    navigate('/react-app/schedule');
   };
 
   const handleFaqClick = () => {
-    navigate('/faq');
+    navigate('/react-app/faq');
   };
 
   const filteredProducts = products.filter(product => {
