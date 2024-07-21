@@ -36,28 +36,28 @@ function App() {
     <div className="App">
       {isFrench ? <HeaderFr /> : <Header />}
       <Routes>
-        <Route path="/" element={<MainContent />} />
-        <Route path="/fr" element={<MainContentFr />} />
-        <Route path="/explore" element={<ExplorePage />} />
-        <Route path="/explore-fr" element={<ExploreFr />} />
-        <Route path="/schedule" element={<SchedulePage />} />
-        <Route path="/schedule-fr" element={<ScheduleFr />} />
-        <Route path="/confirmation" element={<ConfirmationPage />} />
-        <Route path="/confirmation-fr" element={<ConfirmationFr />} />
-        <Route path="/support" element={<SupportPage />} />
-        <Route path="/support-fr" element={<SupportFr />} />
-        <Route path="/ticket-confirmation" element={<TicketConfirmationPage />} />
-        <Route path="/ticket-confirmation-fr" element={<TicketConfirmationFr />} />
-        <Route path="/blog" element={<BlogPage />} />
-        <Route path="/blog-fr" element={<BlogFr />} />
-        <Route path="/products" element={<ProductsPage />} />
-        <Route path="/products-fr" element={<ProductsFr />} />
-        <Route path="/faq" element={<FaqPage />} />
-        <Route path="/faq-fr" element={<FaqFr />} />
-        <Route path="/dashboard" element={<DashboardPage />} />
-        <Route path="/dashboard-fr" element={<DashboardFr />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/about-fr" element={<AboutUsFr />} />
+        <Route path="/react-app" element={<MainContent />} />
+        <Route path="/react-app/fr" element={<MainContentFr />} />
+        <Route path="/react-app/explore" element={<ExplorePage />} />
+        <Route path="/react-app/explore-fr" element={<ExploreFr />} />
+        <Route path="/react-app/schedule" element={<SchedulePage />} />
+        <Route path="/react-app/schedule-fr" element={<ScheduleFr />} />
+        <Route path="/react-app/confirmation" element={<ConfirmationPage />} />
+        <Route path="/react-app/confirmation-fr" element={<ConfirmationFr />} />
+        <Route path="/react-app/support" element={<SupportPage />} />
+        <Route path="/react-app/support-fr" element={<SupportFr />} />
+        <Route path="/react-app/ticket-confirmation" element={<TicketConfirmationPage />} />
+        <Route path="/react-app/ticket-confirmation-fr" element={<TicketConfirmationFr />} />
+        <Route path="/react-app/blog" element={<BlogPage />} />
+        <Route path="/react-app/blog-fr" element={<BlogFr />} />
+        <Route path="/react-app/products" element={<ProductsPage />} />
+        <Route path="/react-app/products-fr" element={<ProductsFr />} />
+        <Route path="/react-app/faq" element={<FaqPage />} />
+        <Route path="/react-app/faq-fr" element={<FaqFr />} />
+        <Route path="/react-app/dashboard" element={<DashboardPage />} />
+        <Route path="/react-app/dashboard-fr" element={<DashboardFr />} />
+        <Route path="/react-app/about" element={<AboutUs />} />
+        <Route path="/react-app/about-fr" element={<AboutUsFr />} />
       </Routes>
       {isFrench ? <FooterFr /> : <Footer />}
     </div>
