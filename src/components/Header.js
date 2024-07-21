@@ -7,11 +7,11 @@ function Header() {
   const navigate = useNavigate();
 
   const handleENClick = () => {
-    navigate('/');
+    navigate('/react-app');
   };
 
   const handleFRClick = () => {
-    navigate('/fr');
+    navigate('/react-app/fr');
   };
 
   return (
