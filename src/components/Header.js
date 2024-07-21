@@ -7,7 +7,7 @@ function Header() {
   const navigate = useNavigate();
 
   const handleENClick = () => {
-    navigate('/react-app');
+    navigate("/react-app");
   };
 
   const handleFRClick = () => {
